@@ -1,122 +1,175 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import React, { useState, useEffect } from 'react';
+import { Navbar } from './components/Navbar';
+import { LiveMapPage } from './pages/LiveMapPage';
+import { TinyFishPipelinePage } from './pages/TinyFishPipelinePage';
+import { VerificationQueuePage } from './pages/VerificationQueuePage';
+import { FleetAlertsPage } from './pages/FleetAlertsPage';
+import { DashcamPage } from './pages/DashcamPage';
+import { InsightsPage } from './pages/InsightsPage';
+import { PricingPage } from './pages/PricingPage';
+import { 
+  api, 
+  GeoJSONFeatureCollection, 
+  Incident, 
+  AlertItem, 
+  MetricsSummary, 
+  RouteOption, 
+  RouteResponse 
+} from './lib/api';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [activeTab, setActiveTab] = useState('map');
+  const [corridor, setCorridor] = useState('NH-10');
+  const [tinyfishMode, setTinyfishMode] = useState('fixture');
+  const [isIngesting, setIsIngesting] = useState(false);
+
+  // Core Data States
+  const [segments, setSegments] = useState<GeoJSONFeatureCollection | null>(null);
+  const [incidents, setIncidents] = useState<Incident[]>([]);
+  const [alerts, setAlerts] = useState<AlertItem[]>([]);
+  const [metrics, setMetrics] = useState<MetricsSummary | null>(null);
+  const [activeRoute, setActiveRoute] = useState<RouteOption | null>(null);
+  const [isLoadingRoute, setIsLoadingRoute] = useState(false);
+
+  // Load Initial Health & Data
+  const loadData = async () => {
+    try {
+      const [health, segData, incData, altData, metData] = await Promise.all([
+        api.getHealth(),
+        api.getRiskSegments(corridor),
+        api.getIncidents({ corridor }),
+        api.getAlerts(corridor),
+        api.getMetricsSummary()
+      ]);
+
+      if (health?.tinyfish_mode) {
+        setTinyfishMode(health.tinyfish_mode);
+      }
+      setSegments(segData);
+      setIncidents(incData);
+      setAlerts(altData);
+      setMetrics(metData);
+    } catch (err) {
+      console.error('Error fetching RIDGE initial data:', err);
+    }
+  };
+
+  useEffect(() => {
+    loadData();
+    // Poll updates every 20 seconds
+    const interval = setInterval(loadData, 20000);
+    return () => clearInterval(interval);
+  }, [corridor]);
+
+  // Handle Manual Ingestion Run
+  const handleTriggerIngest = async () => {
+    setIsIngesting(true);
+    try {
+      await api.triggerIngestion({ corridor, mode: 'search' });
+      await loadData();
+    } catch (err: any) {
+      alert(`Ingestion run error: ${err.message}`);
+    } finally {
+      setIsIngesting(false);
+    }
+  };
+
+  // Handle Route Calculation
+  const handleCalculateRoute = async (
+    origin: string,
+    destination: string,
+    preference: string
+  ): Promise<RouteResponse | null> => {
+    setIsLoadingRoute(true);
+    try {
+      const res = await api.calculateRoutes({
+        origin,
+        destination,
+        preference,
+        corridor
+      });
+      return res;
+    } catch (err: any) {
+      alert(`Routing calculation error: ${err.message}`);
+      return null;
+    } finally {
+      setIsLoadingRoute(false);
+    }
+  };
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <div className="min-h-screen bg-ridge-darkbg text-gray-100 flex flex-col font-sans">
+      {/* 1. Global Navigation Bar */}
+      <Navbar
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        selectedCorridor={corridor}
+        setSelectedCorridor={setCorridor}
+        tinyfishMode={tinyfishMode}
+        isIngesting={isIngesting}
+        onTriggerIngest={handleTriggerIngest}
+      />
 
-      <div className="ticks"></div>
+      {/* 2. Main Page Views */}
+      <main className="flex-1 p-3 lg:p-4 overflow-y-auto">
+        {activeTab === 'map' && (
+          <LiveMapPage
+            corridor={corridor}
+            segments={segments}
+            incidents={incidents}
+            alerts={alerts}
+            metrics={metrics}
+            onCalculateRoute={handleCalculateRoute}
+            activeRoute={activeRoute}
+            setActiveRoute={setActiveRoute}
+            isLoadingRoute={isLoadingRoute}
+          />
+        )}
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        {activeTab === 'pipeline' && (
+          <TinyFishPipelinePage
+            corridor={corridor}
+            onNavigateToMap={() => setActiveTab('map')}
+          />
+        )}
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+        {activeTab === 'verify' && (
+          <VerificationQueuePage corridor={corridor} />
+        )}
+
+        {activeTab === 'fleet' && (
+          <FleetAlertsPage corridor={corridor} alerts={alerts} />
+        )}
+
+        {activeTab === 'dashcam' && (
+          <DashcamPage />
+        )}
+
+        {activeTab === 'insights' && (
+          <InsightsPage />
+        )}
+
+        {activeTab === 'pricing' && (
+          <PricingPage />
+        )}
+      </main>
+
+      {/* 3. Global Footer with Transparency Disclosure */}
+      <footer className="bg-ridge-deep border-t border-ridge-darkborder px-4 py-2.5 text-center text-xs text-gray-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <span className="font-bold text-white tracking-wide">RIDGE</span>
+          <span>• Regional Intelligence & Geospatial Efficiency</span>
+        </div>
+        <div className="text-[11px] text-gray-400">
+          <span className="text-orange-400 font-semibold">*Transparency Disclosure: </span>
+          Disruption ML model trained on synthetic geomorphological data for the prototype. Replace with historical incident data for production.
+        </div>
+        <div className="text-[11px] text-gray-500">
+          KRITICAL HACKS'26 • Team VISTAARX
+        </div>
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;
