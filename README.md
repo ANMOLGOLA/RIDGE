@@ -120,8 +120,8 @@ graph TD
 #### 1. Backend Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ridge.git
-cd ridge
+git clone https://github.com/ANMOLGOLA/RIDGE.git
+cd RIDGE
 
 # Install Python dependencies
 pip install -r backend/requirements.txt
