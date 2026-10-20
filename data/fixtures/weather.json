@@ -1,0 +1,36 @@
+{
+  "NH-10": {
+    "location": "Siliguri - Gangtok Corridor",
+    "latitude": 27.05,
+    "longitude": 88.45,
+    "current": {
+      "temperature_2m": 19.4,
+      "relative_humidity_2m": 92,
+      "precipitation": 14.8,
+      "rain": 14.8,
+      "weather_code": 65
+    },
+    "hourly": {
+      "precipitation_past_24h_mm": 68.5,
+      "precipitation_forecast_24h_mm": 84.2,
+      "max_rain_intensity_mmh": 18.0
+    }
+  },
+  "NH-6": {
+    "location": "Guwahati - Shillong Corridor",
+    "latitude": 25.85,
+    "longitude": 91.88,
+    "current": {
+      "temperature_2m": 22.1,
+      "relative_humidity_2m": 88,
+      "precipitation": 8.2,
+      "rain": 8.2,
+      "weather_code": 63
+    },
+    "hourly": {
+      "precipitation_past_24h_mm": 42.0,
+      "precipitation_forecast_24h_mm": 51.5,
+      "max_rain_intensity_mmh": 12.5
+    }
+  }
+}

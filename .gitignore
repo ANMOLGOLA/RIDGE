@@ -46,3 +46,5 @@ Thumbs.db
 *.swp
 data/graphs/*.temp
 data/models/*.temp
+*.db
+data/cache/

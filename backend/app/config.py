@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     ANTHROPIC_API_KEY: Optional[str] = None
     
     # Database
-    DATABASE_URL: str = "sqlite:///./ridge.db"
+    DATABASE_URL: str = f"sqlite:///{os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'ridge.db')).replace('\\', '/')}"
     REDIS_URL: Optional[str] = None
     
     # Periodic Ingestion & Risk Refresh

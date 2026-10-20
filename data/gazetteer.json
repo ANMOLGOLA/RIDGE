@@ -1,0 +1,1389 @@
+[
+  {
+    "id": "nh10_001",
+    "name": "Siliguri Junction",
+    "lat": 26.7271,
+    "lon": 88.4312,
+    "corridor": "NH-10",
+    "aliases": [
+      "siliguri",
+      "siliguri jn",
+      "pradhan nagar",
+      "darjeeling more"
+    ]
+  },
+  {
+    "id": "nh10_002",
+    "name": "Mahananda Wildlife Sanctuary Gate",
+    "lat": 26.7642,
+    "lon": 88.4011,
+    "corridor": "NH-10",
+    "aliases": [
+      "sukna road",
+      "mahananda gate",
+      "wildlife sanctuary"
+    ]
+  },
+  {
+    "id": "nh10_003",
+    "name": "Sukna Forest Checkpost",
+    "lat": 26.7905,
+    "lon": 88.3615,
+    "corridor": "NH-10",
+    "aliases": [
+      "sukna",
+      "sukna more",
+      "sukna army base"
+    ]
+  },
+  {
+    "id": "nh10_004",
+    "name": "Gulma Station Crossing",
+    "lat": 26.812,
+    "lon": 88.411,
+    "corridor": "NH-10",
+    "aliases": [
+      "gulma",
+      "gulma railway crossing"
+    ]
+  },
+  {
+    "id": "nh10_005",
+    "name": "Sevoke Military Station",
+    "lat": 26.862,
+    "lon": 88.461,
+    "corridor": "NH-10",
+    "aliases": [
+      "sevoke cantt",
+      "sevoke military base"
+    ]
+  },
+  {
+    "id": "nh10_006",
+    "name": "Sevoke Bazar",
+    "lat": 26.8845,
+    "lon": 88.4727,
+    "corridor": "NH-10",
+    "aliases": [
+      "sevoke",
+      "sevoke market",
+      "sevoke village"
+    ]
+  },
+  {
+    "id": "nh10_007",
+    "name": "Coronation Bridge",
+    "lat": 26.9015,
+    "lon": 88.4718,
+    "corridor": "NH-10",
+    "aliases": [
+      "sevoke bridge",
+      "baghpul",
+      "coronation pul",
+      "teesta bridge sevoke"
+    ]
+  },
+  {
+    "id": "nh10_008",
+    "name": "Sevoke Railway Bridge",
+    "lat": 26.905,
+    "lon": 88.4735,
+    "corridor": "NH-10",
+    "aliases": [
+      "sevoke train bridge",
+      "railway bridge"
+    ]
+  },
+  {
+    "id": "nh10_009",
+    "name": "Kalijhora Dam",
+    "lat": 26.928,
+    "lon": 88.458,
+    "corridor": "NH-10",
+    "aliases": [
+      "kalijhora hydro",
+      "teesta low dam 4",
+      "tldp iv"
+    ]
+  },
+  {
+    "id": "nh10_010",
+    "name": "Kalijhora Bazar",
+    "lat": 26.9324,
+    "lon": 88.4552,
+    "corridor": "NH-10",
+    "aliases": [
+      "kalijhora",
+      "kalijhora market",
+      "kalijhora checkpost"
+    ]
+  },
+  {
+    "id": "nh10_011",
+    "name": "Seti Jhora Fall",
+    "lat": 26.955,
+    "lon": 88.442,
+    "corridor": "NH-10",
+    "aliases": [
+      "setijhora",
+      "seti jhora waterfall",
+      "seti jhora bridge"
+    ]
+  },
+  {
+    "id": "nh10_012",
+    "name": "Lilabati Turn",
+    "lat": 26.971,
+    "lon": 88.439,
+    "corridor": "NH-10",
+    "aliases": [
+      "lilabati bend",
+      "lilabati point"
+    ]
+  },
+  {
+    "id": "nh10_013",
+    "name": "Birik Dara Viewpoint",
+    "lat": 26.985,
+    "lon": 88.436,
+    "corridor": "NH-10",
+    "aliases": [
+      "birik",
+      "birik dara",
+      "birik viewpoint"
+    ]
+  },
+  {
+    "id": "nh10_014",
+    "name": "Rambi Bazar",
+    "lat": 27.0092,
+    "lon": 88.4344,
+    "corridor": "NH-10",
+    "aliases": [
+      "rambi",
+      "rambi market",
+      "rambi jhora"
+    ]
+  },
+  {
+    "id": "nh10_015",
+    "name": "Rambi Forest Rest House",
+    "lat": 27.021,
+    "lon": 88.433,
+    "corridor": "NH-10",
+    "aliases": [
+      "rambi forest",
+      "rambi bangla"
+    ]
+  },
+  {
+    "id": "nh10_016",
+    "name": "27th Mile Curve",
+    "lat": 27.032,
+    "lon": 88.4325,
+    "corridor": "NH-10",
+    "aliases": [
+      "27th mile",
+      "27 mile bend"
+    ]
+  },
+  {
+    "id": "nh10_017",
+    "name": "29th Mile Landslide Zone",
+    "lat": 27.045,
+    "lon": 88.432,
+    "corridor": "NH-10",
+    "aliases": [
+      "29th mile",
+      "29 mile",
+      "twenty ninth mile",
+      "untis mile"
+    ]
+  },
+  {
+    "id": "nh10_018",
+    "name": "Teesta Low Dam III",
+    "lat": 27.054,
+    "lon": 88.4315,
+    "corridor": "NH-10",
+    "aliases": [
+      "tldp iii",
+      "teesta stage 3"
+    ]
+  },
+  {
+    "id": "nh10_019",
+    "name": "Teesta Bazar",
+    "lat": 27.0651,
+    "lon": 88.4311,
+    "corridor": "NH-10",
+    "aliases": [
+      "teesta bazaar",
+      "teesta pul",
+      "teesta suspension bridge"
+    ]
+  },
+  {
+    "id": "nh10_020",
+    "name": "Teesta Suspension Bridge",
+    "lat": 27.0665,
+    "lon": 88.4322,
+    "corridor": "NH-10",
+    "aliases": [
+      "old teesta bridge",
+      "teesta foot bridge"
+    ]
+  },
+  {
+    "id": "nh10_021",
+    "name": "Chitrey River Camp",
+    "lat": 27.0754,
+    "lon": 88.4521,
+    "corridor": "NH-10",
+    "aliases": [
+      "chitrey",
+      "chitrey rafting camp",
+      "chitrey bend"
+    ]
+  },
+  {
+    "id": "nh10_022",
+    "name": "Melli Bridge Checkpost",
+    "lat": 27.0864,
+    "lon": 88.4542,
+    "corridor": "NH-10",
+    "aliases": [
+      "melli",
+      "melli bazar",
+      "melli pul",
+      "wb sikkim border melli"
+    ]
+  },
+  {
+    "id": "nh10_023",
+    "name": "Melli Dara Hill",
+    "lat": 27.098,
+    "lon": 88.462,
+    "corridor": "NH-10",
+    "aliases": [
+      "melli dara",
+      "melli ridge"
+    ]
+  },
+  {
+    "id": "nh10_024",
+    "name": "Tarkhola Crossing",
+    "lat": 27.121,
+    "lon": 88.485,
+    "corridor": "NH-10",
+    "aliases": [
+      "tarkhola",
+      "tarkhola bridge",
+      "tarkhola check"
+    ]
+  },
+  {
+    "id": "nh10_025",
+    "name": "Kirney Jhora",
+    "lat": 27.135,
+    "lon": 88.498,
+    "corridor": "NH-10",
+    "aliases": [
+      "kirney",
+      "kirney jhora",
+      "kirney stream"
+    ]
+  },
+  {
+    "id": "nh10_026",
+    "name": "Mamring Valley Turn",
+    "lat": 27.151,
+    "lon": 88.512,
+    "corridor": "NH-10",
+    "aliases": [
+      "mamring",
+      "mamring turn",
+      "mamring factory"
+    ]
+  },
+  {
+    "id": "nh10_027",
+    "name": "Rangpo Border Gate",
+    "lat": 27.1764,
+    "lon": 88.5283,
+    "corridor": "NH-10",
+    "aliases": [
+      "rangpo",
+      "rangpo checkpost",
+      "sikkim entry gate",
+      "rangpo border"
+    ]
+  },
+  {
+    "id": "nh10_028",
+    "name": "Rangpo Mining Ground",
+    "lat": 27.182,
+    "lon": 88.526,
+    "corridor": "NH-10",
+    "aliases": [
+      "mining ground",
+      "rangpo ground"
+    ]
+  },
+  {
+    "id": "nh10_029",
+    "name": "Majhitar Bridge",
+    "lat": 27.1991,
+    "lon": 88.5213,
+    "corridor": "NH-10",
+    "aliases": [
+      "majhitar",
+      "majhitar bridge",
+      "smit gate",
+      "sikkim manipal"
+    ]
+  },
+  {
+    "id": "nh10_030",
+    "name": "Rangpo River Confluence",
+    "lat": 27.205,
+    "lon": 88.518,
+    "corridor": "NH-10",
+    "aliases": [
+      "river confluence",
+      "teesta rangpo junction"
+    ]
+  },
+  {
+    "id": "nh10_031",
+    "name": "Bermiok Turn",
+    "lat": 27.215,
+    "lon": 88.509,
+    "corridor": "NH-10",
+    "aliases": [
+      "bermiok bend",
+      "nh10 bermiok turn"
+    ]
+  },
+  {
+    "id": "nh10_032",
+    "name": "Singtam Hospital Morh",
+    "lat": 27.228,
+    "lon": 88.502,
+    "corridor": "NH-10",
+    "aliases": [
+      "singtam hospital",
+      "singtam chowk"
+    ]
+  },
+  {
+    "id": "nh10_033",
+    "name": "Singtam Bazar",
+    "lat": 27.2355,
+    "lon": 88.4988,
+    "corridor": "NH-10",
+    "aliases": [
+      "singtam",
+      "singtam bazar",
+      "singtam pul",
+      "singtam bridge"
+    ]
+  },
+  {
+    "id": "nh10_034",
+    "name": "Singtam Teesta Riverside",
+    "lat": 27.241,
+    "lon": 88.504,
+    "corridor": "NH-10",
+    "aliases": [
+      "singtam riverside",
+      "nh10 riverside singtam"
+    ]
+  },
+  {
+    "id": "nh10_035",
+    "name": "32nd National Highway Mile",
+    "lat": 27.251,
+    "lon": 88.512,
+    "corridor": "NH-10",
+    "aliases": [
+      "32nd mile",
+      "32 mile nh10"
+    ]
+  },
+  {
+    "id": "nh10_036",
+    "name": "Burdang Landslide Stretch",
+    "lat": 27.262,
+    "lon": 88.531,
+    "corridor": "NH-10",
+    "aliases": [
+      "burdang",
+      "burdang army camp",
+      "burdang stretch"
+    ]
+  },
+  {
+    "id": "nh10_037",
+    "name": "Chalamthang Turn",
+    "lat": 27.275,
+    "lon": 88.552,
+    "corridor": "NH-10",
+    "aliases": [
+      "chalamthang junction",
+      "chalamthang turn"
+    ]
+  },
+  {
+    "id": "nh10_038",
+    "name": "Martam Road Fork",
+    "lat": 27.283,
+    "lon": 88.568,
+    "corridor": "NH-10",
+    "aliases": [
+      "martam road",
+      "martam fork",
+      "martam entrance"
+    ]
+  },
+  {
+    "id": "nh10_039",
+    "name": "Ranipool Bridge",
+    "lat": 27.2942,
+    "lon": 88.5832,
+    "corridor": "NH-10",
+    "aliases": [
+      "ranipool",
+      "ranipool bazaar",
+      "ranipool pul",
+      "rani khola bridge"
+    ]
+  },
+  {
+    "id": "nh10_040",
+    "name": "Ranipool Police Station",
+    "lat": 27.298,
+    "lon": 88.589,
+    "corridor": "NH-10",
+    "aliases": [
+      "ranipool ps",
+      "ranipool checkpost"
+    ]
+  },
+  {
+    "id": "nh10_041",
+    "name": "Saramsa Garden More",
+    "lat": 27.302,
+    "lon": 88.592,
+    "corridor": "NH-10",
+    "aliases": [
+      "saramsa more",
+      "saramsa garden turning"
+    ]
+  },
+  {
+    "id": "nh10_042",
+    "name": "Tadong 5th Mile",
+    "lat": 27.311,
+    "lon": 88.598,
+    "corridor": "NH-10",
+    "aliases": [
+      "5th mile tadong",
+      "fifth mile"
+    ]
+  },
+  {
+    "id": "nh10_043",
+    "name": "Tadong Government College",
+    "lat": 27.3168,
+    "lon": 88.6015,
+    "corridor": "NH-10",
+    "aliases": [
+      "tadong",
+      "tadong college",
+      "tadong bazaar"
+    ]
+  },
+  {
+    "id": "nh10_044",
+    "name": "Tadong 6th Mile Bazar",
+    "lat": 27.32,
+    "lon": 88.605,
+    "corridor": "NH-10",
+    "aliases": [
+      "6th mile",
+      "sixth mile tadong",
+      "crh tadong"
+    ]
+  },
+  {
+    "id": "nh10_045",
+    "name": "Deorali Ropeway Station",
+    "lat": 27.3242,
+    "lon": 88.6095,
+    "corridor": "NH-10",
+    "aliases": [
+      "deorali",
+      "deorali bazaar",
+      "deorali taxi stand",
+      "ropeway deorali"
+    ]
+  },
+  {
+    "id": "nh10_046",
+    "name": "Deorali Chorten Stupa",
+    "lat": 27.326,
+    "lon": 88.611,
+    "corridor": "NH-10",
+    "aliases": [
+      "chorten stupa",
+      "dro-dul chorten"
+    ]
+  },
+  {
+    "id": "nh10_047",
+    "name": "Namnang Viewpoint",
+    "lat": 27.328,
+    "lon": 88.612,
+    "corridor": "NH-10",
+    "aliases": [
+      "namnang",
+      "namnang ridge"
+    ]
+  },
+  {
+    "id": "nh10_048",
+    "name": "Gangtok MG Marg",
+    "lat": 27.3314,
+    "lon": 88.6138,
+    "corridor": "NH-10",
+    "aliases": [
+      "gangtok",
+      "mg marg",
+      "gangtok town",
+      "capital gangtok",
+      "lal bazaar"
+    ]
+  },
+  {
+    "id": "nh10_049",
+    "name": "Vajra Cinema Hall More",
+    "lat": 27.336,
+    "lon": 88.615,
+    "corridor": "NH-10",
+    "aliases": [
+      "vajra stand",
+      "vajra cinema",
+      "north sikkim taxi stand"
+    ]
+  },
+  {
+    "id": "nh10_050",
+    "name": "Bojhoghari Army Gate",
+    "lat": 27.342,
+    "lon": 88.621,
+    "corridor": "NH-10",
+    "aliases": [
+      "bojhoghari",
+      "bojhoghari gate"
+    ]
+  },
+  {
+    "id": "nh10_051",
+    "name": "Tashi View Point",
+    "lat": 27.355,
+    "lon": 88.628,
+    "corridor": "NH-10",
+    "aliases": [
+      "tashi view point",
+      "tashi ridge"
+    ]
+  },
+  {
+    "id": "nh10_052",
+    "name": "Bakthang Waterfall",
+    "lat": 27.362,
+    "lon": 88.625,
+    "corridor": "NH-10",
+    "aliases": [
+      "bakthang",
+      "bakthang falls"
+    ]
+  },
+  {
+    "id": "nh10_053",
+    "name": "Kabi Lungchok Turn",
+    "lat": 27.382,
+    "lon": 88.621,
+    "corridor": "NH-10",
+    "aliases": [
+      "kabi turn",
+      "kabi road"
+    ]
+  },
+  {
+    "id": "nh10_054",
+    "name": "Dikchu Junction",
+    "lat": 27.411,
+    "lon": 88.572,
+    "corridor": "NH-10",
+    "aliases": [
+      "dikchu",
+      "dikchu bridge",
+      "dikchu hydro power"
+    ]
+  },
+  {
+    "id": "nh10_055",
+    "name": "Pakyong Green Airport Fork",
+    "lat": 27.234,
+    "lon": 88.592,
+    "corridor": "NH-10",
+    "aliases": [
+      "pakyong airport road",
+      "pakyong fork"
+    ]
+  },
+  {
+    "id": "nh10_056",
+    "name": "Assam Lingzey Crossing",
+    "lat": 27.261,
+    "lon": 88.612,
+    "corridor": "NH-10",
+    "aliases": [
+      "assam lingzey",
+      "lingzey bridge"
+    ]
+  },
+  {
+    "id": "nh10_057",
+    "name": "Peygong Curve",
+    "lat": 26.945,
+    "lon": 88.448,
+    "corridor": "NH-10",
+    "aliases": [
+      "peygong bend",
+      "peygong"
+    ]
+  },
+  {
+    "id": "nh10_058",
+    "name": "Geilkhola Bend",
+    "lat": 27.018,
+    "lon": 88.4335,
+    "corridor": "NH-10",
+    "aliases": [
+      "geilkhola",
+      "geil khola stream",
+      "gielkhola"
+    ]
+  },
+  {
+    "id": "nh10_059",
+    "name": "Munsong Road Crest",
+    "lat": 27.102,
+    "lon": 88.482,
+    "corridor": "NH-10",
+    "aliases": [
+      "munsong turn",
+      "munsong cinchona"
+    ]
+  },
+  {
+    "id": "nh10_060",
+    "name": "Bhasmey Riverbank",
+    "lat": 27.218,
+    "lon": 88.511,
+    "corridor": "NH-10",
+    "aliases": [
+      "bhasmey",
+      "bhasmey suspension bridge"
+    ]
+  },
+  {
+    "id": "nh6_061",
+    "name": "Guwahati Railway Station",
+    "lat": 26.1806,
+    "lon": 91.7539,
+    "corridor": "NH-6",
+    "aliases": [
+      "paltan bazar",
+      "guwahati station",
+      "guwahati city"
+    ]
+  },
+  {
+    "id": "nh6_062",
+    "name": "Ulubari Flyover",
+    "lat": 26.168,
+    "lon": 91.765,
+    "corridor": "NH-6",
+    "aliases": [
+      "ulubari",
+      "ulubari chariali"
+    ]
+  },
+  {
+    "id": "nh6_063",
+    "name": "Ganeshguri Chariali",
+    "lat": 26.152,
+    "lon": 91.782,
+    "corridor": "NH-6",
+    "aliases": [
+      "ganeshguri",
+      "dispur ganeshguri flyover"
+    ]
+  },
+  {
+    "id": "nh6_064",
+    "name": "Assam Secretariat Dispur",
+    "lat": 26.141,
+    "lon": 91.791,
+    "corridor": "NH-6",
+    "aliases": [
+      "dispur",
+      "secretariat",
+      "capital complex"
+    ]
+  },
+  {
+    "id": "nh6_065",
+    "name": "Six Mile Flyover",
+    "lat": 26.128,
+    "lon": 91.808,
+    "corridor": "NH-6",
+    "aliases": [
+      "six mile",
+      "six mile bridge",
+      "vip road junction"
+    ]
+  },
+  {
+    "id": "nh6_066",
+    "name": "Khanapara Bus Terminus",
+    "lat": 26.1158,
+    "lon": 91.8225,
+    "corridor": "NH-6",
+    "aliases": [
+      "khanapara",
+      "khanapara rotary",
+      "assam meghalaya gate"
+    ]
+  },
+  {
+    "id": "nh6_067",
+    "name": "Khanapara Veterinary Hill",
+    "lat": 26.108,
+    "lon": 91.838,
+    "corridor": "NH-6",
+    "aliases": [
+      "khanapara vet",
+      "khanapara hill"
+    ]
+  },
+  {
+    "id": "nh6_068",
+    "name": "Koinadhara State Guest House",
+    "lat": 26.102,
+    "lon": 91.851,
+    "corridor": "NH-6",
+    "aliases": [
+      "koinadhara",
+      "koinadhara hill"
+    ]
+  },
+  {
+    "id": "nh6_069",
+    "name": "Jorabat Traffic Junction",
+    "lat": 26.0967,
+    "lon": 91.8702,
+    "corridor": "NH-6",
+    "aliases": [
+      "jorabat",
+      "jorabat tri-junction",
+      "jorabat flyover",
+      "jorabat morh"
+    ]
+  },
+  {
+    "id": "nh6_070",
+    "name": "Jorabat Waterlogging Point",
+    "lat": 26.089,
+    "lon": 91.871,
+    "corridor": "NH-6",
+    "aliases": [
+      "jorabat drain",
+      "jorabat culvert",
+      "submerged stretch"
+    ]
+  },
+  {
+    "id": "nh6_071",
+    "name": "11th Mile Curve",
+    "lat": 26.078,
+    "lon": 91.8695,
+    "corridor": "NH-6",
+    "aliases": [
+      "11th mile",
+      "eleventh mile"
+    ]
+  },
+  {
+    "id": "nh6_072",
+    "name": "14th Mile Quarry",
+    "lat": 26.062,
+    "lon": 91.868,
+    "corridor": "NH-6",
+    "aliases": [
+      "14th mile",
+      "stone quarry 14th mile"
+    ]
+  },
+  {
+    "id": "nh6_073",
+    "name": "15th Mile Petrol Depot",
+    "lat": 26.055,
+    "lon": 91.866,
+    "corridor": "NH-6",
+    "aliases": [
+      "15th mile",
+      "fifteenth mile"
+    ]
+  },
+  {
+    "id": "nh6_074",
+    "name": "Byrnihat Commercial Checkpost",
+    "lat": 26.0463,
+    "lon": 91.8647,
+    "corridor": "NH-6",
+    "aliases": [
+      "byrnihat",
+      "byrnihat tax gate",
+      "meghalaya tax counter"
+    ]
+  },
+  {
+    "id": "nh6_075",
+    "name": "Byrnihat Umtru River Bridge",
+    "lat": 26.038,
+    "lon": 91.8635,
+    "corridor": "NH-6",
+    "aliases": [
+      "byrnihat bridge",
+      "umtru river bridge"
+    ]
+  },
+  {
+    "id": "nh6_076",
+    "name": "18th Mile Industrial Estate",
+    "lat": 26.021,
+    "lon": 91.8625,
+    "corridor": "NH-6",
+    "aliases": [
+      "18th mile",
+      "byrnihat industrial"
+    ]
+  },
+  {
+    "id": "nh6_077",
+    "name": "20th Mile Weighbridge",
+    "lat": 26.002,
+    "lon": 91.862,
+    "corridor": "NH-6",
+    "aliases": [
+      "20th mile",
+      "weighbridge 20th mile"
+    ]
+  },
+  {
+    "id": "nh6_078",
+    "name": "Saiden Hills Curve",
+    "lat": 25.981,
+    "lon": 91.866,
+    "corridor": "NH-6",
+    "aliases": [
+      "saiden",
+      "saiden bend",
+      "saiden hill"
+    ]
+  },
+  {
+    "id": "nh6_079",
+    "name": "Shangbangla Rest Stop",
+    "lat": 25.962,
+    "lon": 91.871,
+    "corridor": "NH-6",
+    "aliases": [
+      "shangbangla",
+      "shangbangla curve"
+    ]
+  },
+  {
+    "id": "nh6_080",
+    "name": "Nongpoh Circuit House",
+    "lat": 25.912,
+    "lon": 91.878,
+    "corridor": "NH-6",
+    "aliases": [
+      "nongpoh circuit",
+      "nongpoh inspection"
+    ]
+  },
+  {
+    "id": "nh6_081",
+    "name": "Nongpoh Main Town",
+    "lat": 25.9038,
+    "lon": 91.8814,
+    "corridor": "NH-6",
+    "aliases": [
+      "nongpoh",
+      "nongpoh market",
+      "nongpoh taxi stand",
+      "ribhoi district hq"
+    ]
+  },
+  {
+    "id": "nh6_082",
+    "name": "Nongpoh River Culvert",
+    "lat": 25.891,
+    "lon": 91.882,
+    "corridor": "NH-6",
+    "aliases": [
+      "nongpoh culvert",
+      "nongpoh stream"
+    ]
+  },
+  {
+    "id": "nh6_083",
+    "name": "Mawrong Diversion",
+    "lat": 25.862,
+    "lon": 91.883,
+    "corridor": "NH-6",
+    "aliases": [
+      "mawrong",
+      "mawrong road"
+    ]
+  },
+  {
+    "id": "nh6_084",
+    "name": "Pahamsyiem Sports Complex",
+    "lat": 25.841,
+    "lon": 91.884,
+    "corridor": "NH-6",
+    "aliases": [
+      "pahamsyiem",
+      "pahamsyiem ground"
+    ]
+  },
+  {
+    "id": "nh6_085",
+    "name": "Umran Diary Farm Turn",
+    "lat": 25.811,
+    "lon": 91.885,
+    "corridor": "NH-6",
+    "aliases": [
+      "umran",
+      "umran bridge",
+      "icarl umran"
+    ]
+  },
+  {
+    "id": "nh6_086",
+    "name": "Umsning Expressway Bypass Entry",
+    "lat": 25.762,
+    "lon": 91.884,
+    "corridor": "NH-6",
+    "aliases": [
+      "umsning bypass",
+      "umsning entrance"
+    ]
+  },
+  {
+    "id": "nh6_087",
+    "name": "Umsning Town Center",
+    "lat": 25.7512,
+    "lon": 91.8856,
+    "corridor": "NH-6",
+    "aliases": [
+      "umsning",
+      "umsning bazaar",
+      "umsning market"
+    ]
+  },
+  {
+    "id": "nh6_088",
+    "name": "Umsning Police Outpost",
+    "lat": 25.742,
+    "lon": 91.887,
+    "corridor": "NH-6",
+    "aliases": [
+      "umsning ps",
+      "umsning outpost"
+    ]
+  },
+  {
+    "id": "nh6_089",
+    "name": "Mawhati Junction",
+    "lat": 25.725,
+    "lon": 91.895,
+    "corridor": "NH-6",
+    "aliases": [
+      "mawhati more",
+      "mawhati turn"
+    ]
+  },
+  {
+    "id": "nh6_090",
+    "name": "Sumer Valley Overlook",
+    "lat": 25.705,
+    "lon": 91.902,
+    "corridor": "NH-6",
+    "aliases": [
+      "sumer",
+      "sumer bridge",
+      "sumer valley"
+    ]
+  },
+  {
+    "id": "nh6_091",
+    "name": "Umroi Airport Road Junction",
+    "lat": 25.682,
+    "lon": 91.912,
+    "corridor": "NH-6",
+    "aliases": [
+      "umroi junction",
+      "shillong airport turning",
+      "umroi gate"
+    ]
+  },
+  {
+    "id": "nh6_092",
+    "name": "Kyrdemkulai Powerhouse Fork",
+    "lat": 25.671,
+    "lon": 91.914,
+    "corridor": "NH-6",
+    "aliases": [
+      "kyrdemkulai",
+      "powerhouse fork"
+    ]
+  },
+  {
+    "id": "nh6_093",
+    "name": "Umiam Lake Watersport Complex",
+    "lat": 25.662,
+    "lon": 91.915,
+    "corridor": "NH-6",
+    "aliases": [
+      "umiam lake",
+      "barapani lake",
+      "water sports complex"
+    ]
+  },
+  {
+    "id": "nh6_094",
+    "name": "Barapani Bridge Causeway",
+    "lat": 25.6542,
+    "lon": 91.9158,
+    "corridor": "NH-6",
+    "aliases": [
+      "barapani",
+      "barapani bridge",
+      "umiam dam",
+      "barapani causeway"
+    ]
+  },
+  {
+    "id": "nh6_095",
+    "name": "Umiam Dam Spillway",
+    "lat": 25.651,
+    "lon": 91.9165,
+    "corridor": "NH-6",
+    "aliases": [
+      "spillway",
+      "umiam dam gate"
+    ]
+  },
+  {
+    "id": "nh6_096",
+    "name": "Mawlyndep Viewpoint",
+    "lat": 25.638,
+    "lon": 91.905,
+    "corridor": "NH-6",
+    "aliases": [
+      "mawlyndep",
+      "lake overlook"
+    ]
+  },
+  {
+    "id": "nh6_097",
+    "name": "Mawlyngngad Curve",
+    "lat": 25.621,
+    "lon": 91.892,
+    "corridor": "NH-6",
+    "aliases": [
+      "mawlyngngad",
+      "mawlyngngad bend"
+    ]
+  },
+  {
+    "id": "nh6_098",
+    "name": "Mawdun Hairpin Bend",
+    "lat": 25.608,
+    "lon": 91.884,
+    "corridor": "NH-6",
+    "aliases": [
+      "mawdun",
+      "mawdun hairpin",
+      "mawdun curve"
+    ]
+  },
+  {
+    "id": "nh6_099",
+    "name": "Mawlai Mawiong Bus Terminal",
+    "lat": 25.601,
+    "lon": 91.881,
+    "corridor": "NH-6",
+    "aliases": [
+      "mawiong",
+      "isbt shillong",
+      "mawiong terminal"
+    ]
+  },
+  {
+    "id": "nh6_100",
+    "name": "Mawlai Phudmuri Chowk",
+    "lat": 25.5921,
+    "lon": 91.8792,
+    "corridor": "NH-6",
+    "aliases": [
+      "mawlai",
+      "mawlai gate",
+      "mawlai point",
+      "mawlai bypass"
+    ]
+  },
+  {
+    "id": "nh6_101",
+    "name": "NEHU Gate 1",
+    "lat": 25.605,
+    "lon": 91.898,
+    "corridor": "NH-6",
+    "aliases": [
+      "nehu",
+      "north eastern hill university"
+    ]
+  },
+  {
+    "id": "nh6_102",
+    "name": "Mawlai Bridge",
+    "lat": 25.589,
+    "lon": 91.881,
+    "corridor": "NH-6",
+    "aliases": [
+      "mawlai stream bridge",
+      "mawlai pul"
+    ]
+  },
+  {
+    "id": "nh6_103",
+    "name": "Jaiaw Langsning Crossing",
+    "lat": 25.584,
+    "lon": 91.879,
+    "corridor": "NH-6",
+    "aliases": [
+      "jaiaw",
+      "langsning"
+    ]
+  },
+  {
+    "id": "nh6_104",
+    "name": "Shillong Polo Ground",
+    "lat": 25.5815,
+    "lon": 91.8885,
+    "corridor": "NH-6",
+    "aliases": [
+      "polo ground",
+      "polo market",
+      "shillong golf club"
+    ]
+  },
+  {
+    "id": "nh6_105",
+    "name": "Police Bazar Roundabout",
+    "lat": 25.5788,
+    "lon": 91.8831,
+    "corridor": "NH-6",
+    "aliases": [
+      "police bazar",
+      "pb shillong",
+      "centre point",
+      "khyndailad"
+    ]
+  },
+  {
+    "id": "nh6_106",
+    "name": "Laban Main Road",
+    "lat": 25.568,
+    "lon": 91.879,
+    "corridor": "NH-6",
+    "aliases": [
+      "laban",
+      "harisabha laban"
+    ]
+  },
+  {
+    "id": "nh6_107",
+    "name": "Malki Point",
+    "lat": 25.571,
+    "lon": 91.891,
+    "corridor": "NH-6",
+    "aliases": [
+      "malki",
+      "malki ground"
+    ]
+  },
+  {
+    "id": "nh6_108",
+    "name": "Laitumkhrah Cathedral Morh",
+    "lat": 25.5715,
+    "lon": 91.898,
+    "corridor": "NH-6",
+    "aliases": [
+      "laitumkhrah",
+      "cathedral point",
+      "don bosco square"
+    ]
+  },
+  {
+    "id": "nh6_109",
+    "name": "Upper Shillong Elephant Falls Gate",
+    "lat": 25.536,
+    "lon": 91.824,
+    "corridor": "NH-6",
+    "aliases": [
+      "elephant falls",
+      "upper shillong"
+    ]
+  },
+  {
+    "id": "nh6_110",
+    "name": "Shillong Peak Radar Station",
+    "lat": 25.531,
+    "lon": 91.849,
+    "corridor": "NH-6",
+    "aliases": [
+      "shillong peak",
+      "air force station shillong"
+    ]
+  },
+  {
+    "id": "nh6_111",
+    "name": "Happy Valley Military Camp",
+    "lat": 25.562,
+    "lon": 91.928,
+    "corridor": "NH-6",
+    "aliases": [
+      "happy valley",
+      "58 gtc"
+    ]
+  },
+  {
+    "id": "nh6_112",
+    "name": "Madantrting Police Station",
+    "lat": 25.558,
+    "lon": 91.912,
+    "corridor": "NH-6",
+    "aliases": [
+      "madantrting",
+      "madanriting"
+    ]
+  },
+  {
+    "id": "nh6_113",
+    "name": "Dhankheti Junction",
+    "lat": 25.574,
+    "lon": 91.892,
+    "corridor": "NH-6",
+    "aliases": [
+      "dhankheti",
+      "dhankheti point"
+    ]
+  },
+  {
+    "id": "nh6_114",
+    "name": "Fire Brigade Field Morh",
+    "lat": 25.569,
+    "lon": 91.899,
+    "corridor": "NH-6",
+    "aliases": [
+      "fire brigade shillong",
+      "fire brigade field"
+    ]
+  },
+  {
+    "id": "nh6_115",
+    "name": "Pynthorumkhrah Stadium",
+    "lat": 25.591,
+    "lon": 91.901,
+    "corridor": "NH-6",
+    "aliases": [
+      "pynthorumkhrah",
+      "pynthor"
+    ]
+  },
+  {
+    "id": "nh6_116",
+    "name": "Gorbhanga Forest Trail Head",
+    "lat": 26.061,
+    "lon": 91.821,
+    "corridor": "NH-6",
+    "aliases": [
+      "gorbhanga",
+      "gorbhanga reserve"
+    ]
+  },
+  {
+    "id": "nh6_117",
+    "name": "Nongkhyllem Wildlife Sanctuary Crossing",
+    "lat": 25.925,
+    "lon": 91.831,
+    "corridor": "NH-6",
+    "aliases": [
+      "nongkhyllem gate",
+      "sanctuary road"
+    ]
+  },
+  {
+    "id": "nh6_118",
+    "name": "Umtrew River Viaduct",
+    "lat": 25.825,
+    "lon": 91.882,
+    "corridor": "NH-6",
+    "aliases": [
+      "umtrew viaduct",
+      "umtrew bridge"
+    ]
+  },
+  {
+    "id": "nh6_119",
+    "name": "Lumshyiap Rock Cutting",
+    "lat": 25.588,
+    "lon": 91.885,
+    "corridor": "NH-6",
+    "aliases": [
+      "lumshyiap",
+      "lumshyiap slope"
+    ]
+  },
+  {
+    "id": "nh6_120",
+    "name": "Demthring Intersection",
+    "lat": 25.552,
+    "lon": 91.908,
+    "corridor": "NH-6",
+    "aliases": [
+      "demthring",
+      "demthring junction"
+    ]
+  }
+]

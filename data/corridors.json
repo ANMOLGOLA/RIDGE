@@ -1,0 +1,1778 @@
+[
+  {
+    "id": "seg_nh10_001",
+    "edge_id": "nh10_e_001",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Siliguri Junction to Mahananda Wildlife Sanctuary Gate",
+    "start_node": "Siliguri Junction",
+    "end_node": "Mahananda Wildlife Sanctuary Gate",
+    "start_lat": 26.7271,
+    "start_lon": 88.4312,
+    "end_lat": 26.7642,
+    "end_lon": 88.4011,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4312,
+          26.7271
+        ],
+        [
+          88.41615,
+          26.74665
+        ],
+        [
+          88.4011,
+          26.7642
+        ]
+      ]
+    },
+    "length_m": 5094.3,
+    "base_travel_time_sec": 333,
+    "slope_deg": 2.1,
+    "river_proximity_m": 450.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_002",
+    "edge_id": "nh10_e_002",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Mahananda Wildlife Sanctuary Gate to Sukna Forest Checkpost",
+    "start_node": "Mahananda Wildlife Sanctuary Gate",
+    "end_node": "Sukna Forest Checkpost",
+    "start_lat": 26.7642,
+    "start_lon": 88.4011,
+    "end_lat": 26.7905,
+    "end_lon": 88.3615,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4011,
+          26.7642
+        ],
+        [
+          88.38214147098482,
+          26.777890302305867
+        ],
+        [
+          88.3615,
+          26.7905
+        ]
+      ]
+    },
+    "length_m": 4899.6,
+    "base_travel_time_sec": 320,
+    "slope_deg": 3.6,
+    "river_proximity_m": 450.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_003",
+    "edge_id": "nh10_e_003",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Sukna Forest Checkpost to Gulma Station Crossing",
+    "start_node": "Sukna Forest Checkpost",
+    "end_node": "Gulma Station Crossing",
+    "start_lat": 26.7905,
+    "start_lon": 88.3615,
+    "end_lat": 26.812,
+    "end_lon": 88.411,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.3615,
+          26.7905
+        ],
+        [
+          88.38715929742683,
+          26.800833853163457
+        ],
+        [
+          88.411,
+          26.812
+        ]
+      ]
+    },
+    "length_m": 5463.7,
+    "base_travel_time_sec": 357,
+    "slope_deg": 5.1,
+    "river_proximity_m": 450.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_004",
+    "edge_id": "nh10_e_004",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Gulma Station Crossing to Sevoke Military Station",
+    "start_node": "Gulma Station Crossing",
+    "end_node": "Sevoke Military Station",
+    "start_lat": 26.812,
+    "start_lon": 88.411,
+    "end_lat": 26.862,
+    "end_lon": 88.461,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.411,
+          26.812
+        ],
+        [
+          88.43614112000807,
+          26.8360100075034
+        ],
+        [
+          88.461,
+          26.862
+        ]
+      ]
+    },
+    "length_m": 7451.3,
+    "base_travel_time_sec": 487,
+    "slope_deg": 2.1,
+    "river_proximity_m": 450.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_005",
+    "edge_id": "nh10_e_005",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Sevoke Military Station to Sevoke Bazar",
+    "start_node": "Sevoke Military Station",
+    "end_node": "Sevoke Bazar",
+    "start_lat": 26.862,
+    "start_lon": 88.461,
+    "end_lat": 26.8845,
+    "end_lon": 88.4727,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.461,
+          26.862
+        ],
+        [
+          88.46609319750469,
+          26.872596356379134
+        ],
+        [
+          88.4727,
+          26.8845
+        ]
+      ]
+    },
+    "length_m": 2757.9,
+    "base_travel_time_sec": 180,
+    "slope_deg": 3.6,
+    "river_proximity_m": 450.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_006",
+    "edge_id": "nh10_e_006",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Sevoke Bazar to Coronation Bridge",
+    "start_node": "Sevoke Bazar",
+    "end_node": "Coronation Bridge",
+    "start_lat": 26.8845,
+    "start_lon": 88.4727,
+    "end_lat": 26.9015,
+    "end_lon": 88.4718,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4727,
+          26.8845
+        ],
+        [
+          88.47129107572533,
+          26.893283662185464
+        ],
+        [
+          88.4718,
+          26.9015
+        ]
+      ]
+    },
+    "length_m": 1892.4,
+    "base_travel_time_sec": 227,
+    "slope_deg": 30.5,
+    "river_proximity_m": 35.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_007",
+    "edge_id": "nh10_e_007",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Coronation Bridge to Sevoke Railway Bridge",
+    "start_node": "Coronation Bridge",
+    "end_node": "Sevoke Railway Bridge",
+    "start_lat": 26.9015,
+    "start_lon": 88.4718,
+    "end_lat": 26.905,
+    "end_lon": 88.4735,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4718,
+          26.9015
+        ],
+        [
+          88.4723705845018,
+          26.90421017028665
+        ],
+        [
+          88.4735,
+          26.905
+        ]
+      ]
+    },
+    "length_m": 424.1,
+    "base_travel_time_sec": 60,
+    "slope_deg": 14.5,
+    "river_proximity_m": 75.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_008",
+    "edge_id": "nh10_e_008",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Sevoke Railway Bridge to Kalijhora Dam",
+    "start_node": "Sevoke Railway Bridge",
+    "end_node": "Kalijhora Dam",
+    "start_lat": 26.905,
+    "start_lon": 88.4735,
+    "end_lat": 26.928,
+    "end_lon": 88.458,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4735,
+          26.905
+        ],
+        [
+          88.46640698659871,
+          26.91725390225434
+        ],
+        [
+          88.458,
+          26.928
+        ]
+      ]
+    },
+    "length_m": 2983.7,
+    "base_travel_time_sec": 358,
+    "slope_deg": 17.7,
+    "river_proximity_m": 115.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_009",
+    "edge_id": "nh10_e_009",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Kalijhora Dam to Kalijhora Bazar",
+    "start_node": "Kalijhora Dam",
+    "end_node": "Kalijhora Bazar",
+    "start_lat": 26.928,
+    "start_lon": 88.458,
+    "end_lat": 26.9324,
+    "end_lon": 88.4552,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.458,
+          26.928
+        ],
+        [
+          88.45758935824664,
+          26.93005449996619
+        ],
+        [
+          88.4552,
+          26.9324
+        ]
+      ]
+    },
+    "length_m": 562.5,
+    "base_travel_time_sec": 67,
+    "slope_deg": 20.9,
+    "river_proximity_m": 155.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_010",
+    "edge_id": "nh10_e_010",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Kalijhora Bazar to Seti Jhora Fall",
+    "start_node": "Kalijhora Bazar",
+    "end_node": "Seti Jhora Fall",
+    "start_lat": 26.9324,
+    "start_lon": 88.4552,
+    "end_lat": 26.955,
+    "end_lon": 88.442,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4552,
+          26.9324
+        ],
+        [
+          88.44901211848524,
+          26.942788869738116
+        ],
+        [
+          88.442,
+          26.955
+        ]
+      ]
+    },
+    "length_m": 2833.2,
+    "base_travel_time_sec": 339,
+    "slope_deg": 24.1,
+    "river_proximity_m": 195.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_011",
+    "edge_id": "nh10_e_011",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Seti Jhora Fall to Lilabati Turn",
+    "start_node": "Seti Jhora Fall",
+    "end_node": "Lilabati Turn",
+    "start_lat": 26.955,
+    "start_lon": 88.442,
+    "end_lat": 26.971,
+    "end_lon": 88.439,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.442,
+          26.955
+        ],
+        [
+          88.4399559788891,
+          26.962160928470926
+        ],
+        [
+          88.439,
+          26.971
+        ]
+      ]
+    },
+    "length_m": 1803.8,
+    "base_travel_time_sec": 216,
+    "slope_deg": 27.3,
+    "river_proximity_m": 35.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_012",
+    "edge_id": "nh10_e_012",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Lilabati Turn to Birik Dara Viewpoint",
+    "start_node": "Lilabati Turn",
+    "end_node": "Birik Dara Viewpoint",
+    "start_lat": 26.971,
+    "start_lon": 88.439,
+    "end_lat": 26.985,
+    "end_lon": 88.436,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.439,
+          26.971
+        ],
+        [
+          88.43650000979345,
+          26.97800442569799
+        ],
+        [
+          88.436,
+          26.985
+        ]
+      ]
+    },
+    "length_m": 1584.9,
+    "base_travel_time_sec": 190,
+    "slope_deg": 30.5,
+    "river_proximity_m": 75.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_013",
+    "edge_id": "nh10_e_013",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Birik Dara Viewpoint to Rambi Bazar",
+    "start_node": "Birik Dara Viewpoint",
+    "end_node": "Rambi Bazar",
+    "start_lat": 26.985,
+    "start_lon": 88.436,
+    "end_lat": 27.0092,
+    "end_lon": 88.4344,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.436,
+          26.985
+        ],
+        [
+          88.43466342708201,
+          26.99794385395873
+        ],
+        [
+          88.4344,
+          27.0092
+        ]
+      ]
+    },
+    "length_m": 2695.6,
+    "base_travel_time_sec": 323,
+    "slope_deg": 14.5,
+    "river_proximity_m": 115.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_014",
+    "edge_id": "nh10_e_014",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Rambi Bazar to Rambi Forest Rest House",
+    "start_node": "Rambi Bazar",
+    "end_node": "Rambi Forest Rest House",
+    "start_lat": 27.0092,
+    "start_lon": 88.4344,
+    "end_lat": 27.021,
+    "end_lon": 88.433,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4344,
+          27.0092
+        ],
+        [
+          88.43412016703682,
+          27.01600744678145
+        ],
+        [
+          88.433,
+          27.021
+        ]
+      ]
+    },
+    "length_m": 1319.4,
+    "base_travel_time_sec": 158,
+    "slope_deg": 17.7,
+    "river_proximity_m": 155.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_015",
+    "edge_id": "nh10_e_015",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Rambi Forest Rest House to 27th Mile Curve",
+    "start_node": "Rambi Forest Rest House",
+    "end_node": "27th Mile Curve",
+    "start_lat": 27.021,
+    "start_lon": 88.433,
+    "end_lat": 27.032,
+    "end_lon": 88.4325,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.433,
+          27.021
+        ],
+        [
+          88.43374060735569,
+          27.026636737218208
+        ],
+        [
+          88.4325,
+          27.032
+        ]
+      ]
+    },
+    "length_m": 1224.1,
+    "base_travel_time_sec": 146,
+    "slope_deg": 20.9,
+    "river_proximity_m": 195.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_016",
+    "edge_id": "nh10_e_016",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "27th Mile Curve to 29th Mile Landslide Zone",
+    "start_node": "27th Mile Curve",
+    "end_node": "29th Mile Landslide Zone",
+    "start_lat": 27.032,
+    "start_lon": 88.4325,
+    "end_lat": 27.045,
+    "end_lon": 88.432,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4325,
+          27.032
+        ],
+        [
+          88.43290028784017,
+          27.03774031208714
+        ],
+        [
+          88.432,
+          27.045
+        ]
+      ]
+    },
+    "length_m": 1446.4,
+    "base_travel_time_sec": 173,
+    "slope_deg": 24.1,
+    "river_proximity_m": 35.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_017",
+    "edge_id": "nh10_e_017",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "29th Mile Landslide Zone to Teesta Low Dam III",
+    "start_node": "29th Mile Landslide Zone",
+    "end_node": "Teesta Low Dam III",
+    "start_lat": 27.045,
+    "start_lon": 88.432,
+    "end_lat": 27.054,
+    "end_lon": 88.4315,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.432,
+          27.045
+        ],
+        [
+          88.43146209668333,
+          27.048542340519678
+        ],
+        [
+          88.4315,
+          27.054
+        ]
+      ]
+    },
+    "length_m": 1002.0,
+    "base_travel_time_sec": 120,
+    "slope_deg": 27.3,
+    "river_proximity_m": 75.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_018",
+    "edge_id": "nh10_e_018",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Teesta Low Dam III to Teesta Bazar",
+    "start_node": "Teesta Low Dam III",
+    "end_node": "Teesta Bazar",
+    "start_lat": 27.054,
+    "start_lon": 88.4315,
+    "end_lat": 27.0651,
+    "end_lon": 88.4311,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4315,
+          27.054
+        ],
+        [
+          88.43033860250812,
+          27.05927483666195
+        ],
+        [
+          88.4311,
+          27.0651
+        ]
+      ]
+    },
+    "length_m": 1234.9,
+    "base_travel_time_sec": 148,
+    "slope_deg": 30.5,
+    "river_proximity_m": 115.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_019",
+    "edge_id": "nh10_e_019",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Teesta Bazar to Teesta Suspension Bridge",
+    "start_node": "Teesta Bazar",
+    "end_node": "Teesta Suspension Bridge",
+    "start_lat": 27.0651,
+    "start_lon": 88.4311,
+    "end_lat": 27.0665,
+    "end_lon": 88.4322,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4311,
+          27.0651
+        ],
+        [
+          88.43089901275322,
+          27.06646031670825
+        ],
+        [
+          88.4322,
+          27.0665
+        ]
+      ]
+    },
+    "length_m": 190.0,
+    "base_travel_time_sec": 60,
+    "slope_deg": 14.5,
+    "river_proximity_m": 155.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_020",
+    "edge_id": "nh10_e_020",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Teesta Suspension Bridge to Chitrey River Camp",
+    "start_node": "Teesta Suspension Bridge",
+    "end_node": "Chitrey River Camp",
+    "start_lat": 27.0665,
+    "start_lon": 88.4322,
+    "end_lat": 27.0754,
+    "end_lon": 88.4521,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4322,
+          27.0665
+        ],
+        [
+          88.44229987720966,
+          27.071938704618187
+        ],
+        [
+          88.4521,
+          27.0754
+        ]
+      ]
+    },
+    "length_m": 2204.9,
+    "base_travel_time_sec": 264,
+    "slope_deg": 17.7,
+    "river_proximity_m": 195.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_021",
+    "edge_id": "nh10_e_021",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Chitrey River Camp to Melli Bridge Checkpost",
+    "start_node": "Chitrey River Camp",
+    "end_node": "Melli Bridge Checkpost",
+    "start_lat": 27.0754,
+    "start_lon": 88.4521,
+    "end_lat": 27.0864,
+    "end_lon": 88.4542,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4521,
+          27.0754
+        ],
+        [
+          88.45406294525073,
+          27.081308082061813
+        ],
+        [
+          88.4542,
+          27.0864
+        ]
+      ]
+    },
+    "length_m": 1240.7,
+    "base_travel_time_sec": 148,
+    "slope_deg": 20.9,
+    "river_proximity_m": 35.0,
+    "landslide_zone": true,
+    "historical_incident_count": 12,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_022",
+    "edge_id": "nh10_e_022",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Melli Bridge Checkpost to Melli Dara Hill",
+    "start_node": "Melli Bridge Checkpost",
+    "end_node": "Melli Dara Hill",
+    "start_lat": 27.0864,
+    "start_lon": 88.4542,
+    "end_lat": 27.098,
+    "end_lon": 88.462,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.4542,
+          27.0864
+        ],
+        [
+          88.45893665563854,
+          27.091652270739775
+        ],
+        [
+          88.462,
+          27.098
+        ]
+      ]
+    },
+    "length_m": 1503.3,
+    "base_travel_time_sec": 180,
+    "slope_deg": 24.1,
+    "river_proximity_m": 75.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_023",
+    "edge_id": "nh10_e_023",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Melli Dara Hill to Tarkhola Crossing",
+    "start_node": "Melli Dara Hill",
+    "end_node": "Tarkhola Crossing",
+    "start_lat": 27.098,
+    "start_lon": 88.462,
+    "end_lat": 27.121,
+    "end_lon": 88.485,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.462,
+          27.098
+        ],
+        [
+          88.47349114869071,
+          27.108500039173602
+        ],
+        [
+          88.485,
+          27.121
+        ]
+      ]
+    },
+    "length_m": 3423.9,
+    "base_travel_time_sec": 410,
+    "slope_deg": 27.3,
+    "river_proximity_m": 115.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh10_024",
+    "edge_id": "nh10_e_024",
+    "corridor": "NH-10",
+    "road_name": "NH-10",
+    "name": "Tarkhola Crossing to Kirney Jhora",
+    "start_node": "Tarkhola Crossing",
+    "end_node": "Kirney Jhora",
+    "start_lat": 27.121,
+    "start_lon": 88.485,
+    "end_lat": 27.135,
+    "end_lon": 88.498,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.485,
+          27.121
+        ],
+        [
+          88.49065377959583,
+          27.127467166979667
+        ],
+        [
+          88.498,
+          27.135
+        ]
+      ]
+    },
+    "length_m": 2019.5,
+    "base_travel_time_sec": 242,
+    "slope_deg": 30.5,
+    "river_proximity_m": 155.0,
+    "landslide_zone": false,
+    "historical_incident_count": 2,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_001",
+    "edge_id": "nh6_e_001",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Guwahati Railway Station to Ulubari Flyover",
+    "start_node": "Guwahati Railway Station",
+    "end_node": "Ulubari Flyover",
+    "start_lat": 26.1806,
+    "start_lon": 91.7539,
+    "end_lat": 26.168,
+    "end_lon": 91.765,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.7539,
+          26.1806
+        ],
+        [
+          91.75945,
+          26.1751
+        ],
+        [
+          91.765,
+          26.168
+        ]
+      ]
+    },
+    "length_m": 1786.0,
+    "base_travel_time_sec": 98,
+    "slope_deg": 1.5,
+    "river_proximity_m": 120.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_002",
+    "edge_id": "nh6_e_002",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Ulubari Flyover to Ganeshguri Chariali",
+    "start_node": "Ulubari Flyover",
+    "end_node": "Ganeshguri Chariali",
+    "start_lat": 26.168,
+    "start_lon": 91.765,
+    "end_lat": 26.152,
+    "end_lon": 91.782,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.765,
+          26.168
+        ],
+        [
+          91.77417317678784,
+          26.160432241844696
+        ],
+        [
+          91.782,
+          26.152
+        ]
+      ]
+    },
+    "length_m": 2458.5,
+    "base_travel_time_sec": 136,
+    "slope_deg": 1.5,
+    "river_proximity_m": 200.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_003",
+    "edge_id": "nh6_e_003",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Ganeshguri Chariali to Assam Secretariat Dispur",
+    "start_node": "Ganeshguri Chariali",
+    "end_node": "Assam Secretariat Dispur",
+    "start_lat": 26.152,
+    "start_lon": 91.782,
+    "end_lat": 26.141,
+    "end_lon": 91.791,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.782,
+          26.152
+        ],
+        [
+          91.78722743794145,
+          26.146167082530763
+        ],
+        [
+          91.791,
+          26.141
+        ]
+      ]
+    },
+    "length_m": 1517.6,
+    "base_travel_time_sec": 84,
+    "slope_deg": 1.5,
+    "river_proximity_m": 280.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_004",
+    "edge_id": "nh6_e_004",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Assam Secretariat Dispur to Six Mile Flyover",
+    "start_node": "Assam Secretariat Dispur",
+    "end_node": "Six Mile Flyover",
+    "start_lat": 26.141,
+    "start_lon": 91.791,
+    "end_lat": 26.128,
+    "end_lon": 91.808,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.791,
+          26.141
+        ],
+        [
+          91.79961289600644,
+          26.13370800600272
+        ],
+        [
+          91.808,
+          26.128
+        ]
+      ]
+    },
+    "length_m": 2229.3,
+    "base_travel_time_sec": 123,
+    "slope_deg": 1.5,
+    "river_proximity_m": 360.0,
+    "landslide_zone": true,
+    "historical_incident_count": 15,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_005",
+    "edge_id": "nh6_e_005",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Six Mile Flyover to Khanapara Bus Terminus",
+    "start_node": "Six Mile Flyover",
+    "end_node": "Khanapara Bus Terminus",
+    "start_lat": 26.128,
+    "start_lon": 91.808,
+    "end_lat": 26.1158,
+    "end_lon": 91.8225,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.808,
+          26.128
+        ],
+        [
+          91.81464455800376,
+          26.12137708510331
+        ],
+        [
+          91.8225,
+          26.1158
+        ]
+      ]
+    },
+    "length_m": 1983.9,
+    "base_travel_time_sec": 109,
+    "slope_deg": 1.5,
+    "river_proximity_m": 440.0,
+    "landslide_zone": true,
+    "historical_incident_count": 15,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_006",
+    "edge_id": "nh6_e_006",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Khanapara Bus Terminus to Khanapara Veterinary Hill",
+    "start_node": "Khanapara Bus Terminus",
+    "end_node": "Khanapara Veterinary Hill",
+    "start_lat": 26.1158,
+    "start_lon": 91.8225,
+    "end_lat": 26.108,
+    "end_lon": 91.838,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.8225,
+          26.1158
+        ],
+        [
+          91.82948286058027,
+          26.11212692974837
+        ],
+        [
+          91.838,
+          26.108
+        ]
+      ]
+    },
+    "length_m": 1774.1,
+    "base_travel_time_sec": 98,
+    "slope_deg": 1.5,
+    "river_proximity_m": 520.0,
+    "landslide_zone": true,
+    "historical_incident_count": 15,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_007",
+    "edge_id": "nh6_e_007",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Khanapara Veterinary Hill to Koinadhara State Guest House",
+    "start_node": "Khanapara Veterinary Hill",
+    "end_node": "Koinadhara State Guest House",
+    "start_lat": 26.108,
+    "start_lon": 91.838,
+    "end_lat": 26.102,
+    "end_lon": 91.851,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.838,
+          26.108
+        ],
+        [
+          91.84427646760143,
+          26.105768136229322
+        ],
+        [
+          91.851,
+          26.102
+        ]
+      ]
+    },
+    "length_m": 1459.5,
+    "base_travel_time_sec": 116,
+    "slope_deg": 12.3,
+    "river_proximity_m": 600.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_008",
+    "edge_id": "nh6_e_008",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Koinadhara State Guest House to Jorabat Traffic Junction",
+    "start_node": "Koinadhara State Guest House",
+    "end_node": "Jorabat Traffic Junction",
+    "start_lat": 26.102,
+    "start_lon": 91.851,
+    "end_lat": 26.0967,
+    "end_lon": 91.8702,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.851,
+          26.102
+        ],
+        [
+          91.86112558927898,
+          26.099953121803477
+        ],
+        [
+          91.8702,
+          26.0967
+        ]
+      ]
+    },
+    "length_m": 2005.8,
+    "base_travel_time_sec": 160,
+    "slope_deg": 14.8,
+    "river_proximity_m": 120.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_009",
+    "edge_id": "nh6_e_009",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Jorabat Traffic Junction to Jorabat Waterlogging Point",
+    "start_node": "Jorabat Traffic Junction",
+    "end_node": "Jorabat Waterlogging Point",
+    "start_lat": 26.0967,
+    "start_lon": 91.8702,
+    "end_lat": 26.089,
+    "end_lon": 91.871,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.8702,
+          26.0967
+        ],
+        [
+          91.87139148659729,
+          26.092733599972952
+        ],
+        [
+          91.871,
+          26.089
+        ]
+      ]
+    },
+    "length_m": 859.9,
+    "base_travel_time_sec": 68,
+    "slope_deg": 17.3,
+    "river_proximity_m": 200.0,
+    "landslide_zone": true,
+    "historical_incident_count": 15,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_010",
+    "edge_id": "nh6_e_010",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Jorabat Waterlogging Point to 11th Mile Curve",
+    "start_node": "Jorabat Waterlogging Point",
+    "end_node": "11th Mile Curve",
+    "start_lat": 26.089,
+    "start_lon": 91.871,
+    "end_lat": 26.078,
+    "end_lon": 91.8695,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.871,
+          26.089
+        ],
+        [
+          91.87057969478819,
+          26.082771095790495
+        ],
+        [
+          91.8695,
+          26.078
+        ]
+      ]
+    },
+    "length_m": 1232.3,
+    "base_travel_time_sec": 98,
+    "slope_deg": 19.8,
+    "river_proximity_m": 280.0,
+    "landslide_zone": true,
+    "historical_incident_count": 15,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_011",
+    "edge_id": "nh6_e_011",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "11th Mile Curve to 14th Mile Quarry",
+    "start_node": "11th Mile Curve",
+    "end_node": "14th Mile Quarry",
+    "start_lat": 26.078,
+    "start_lon": 91.8695,
+    "end_lat": 26.062,
+    "end_lon": 91.868,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.8695,
+          26.078
+        ],
+        [
+          91.86831478311129,
+          26.06932874277674
+        ],
+        [
+          91.868,
+          26.062
+        ]
+      ]
+    },
+    "length_m": 1785.4,
+    "base_travel_time_sec": 142,
+    "slope_deg": 9.8,
+    "river_proximity_m": 360.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_012",
+    "edge_id": "nh6_e_012",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "14th Mile Quarry to 15th Mile Petrol Depot",
+    "start_node": "14th Mile Quarry",
+    "end_node": "15th Mile Petrol Depot",
+    "start_lat": 26.062,
+    "start_lon": 91.868,
+    "end_lat": 26.055,
+    "end_lon": 91.866,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.868,
+          26.062
+        ],
+        [
+          91.86620000783475,
+          26.05850354055839
+        ],
+        [
+          91.866,
+          26.055
+        ]
+      ]
+    },
+    "length_m": 803.6,
+    "base_travel_time_sec": 64,
+    "slope_deg": 12.3,
+    "river_proximity_m": 440.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_013",
+    "edge_id": "nh6_e_013",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "15th Mile Petrol Depot to Byrnihat Commercial Checkpost",
+    "start_node": "15th Mile Petrol Depot",
+    "end_node": "Byrnihat Commercial Checkpost",
+    "start_lat": 26.055,
+    "start_lon": 91.866,
+    "end_lat": 26.0463,
+    "end_lon": 91.8647,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.866,
+          26.055
+        ],
+        [
+          91.8649207416656,
+          26.051325083166983
+        ],
+        [
+          91.8647,
+          26.0463
+        ]
+      ]
+    },
+    "length_m": 976.1,
+    "base_travel_time_sec": 78,
+    "slope_deg": 14.8,
+    "river_proximity_m": 520.0,
+    "landslide_zone": true,
+    "historical_incident_count": 8,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_014",
+    "edge_id": "nh6_e_014",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Byrnihat Commercial Checkpost to Byrnihat Umtru River Bridge",
+    "start_node": "Byrnihat Commercial Checkpost",
+    "end_node": "Byrnihat Umtru River Bridge",
+    "start_lat": 26.0463,
+    "start_lon": 91.8647,
+    "end_lat": 26.038,
+    "end_lon": 91.8635,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.8647,
+          26.0463
+        ],
+        [
+          91.86443613362947,
+          26.04287595742516
+        ],
+        [
+          91.8635,
+          26.038
+        ]
+      ]
+    },
+    "length_m": 930.7,
+    "base_travel_time_sec": 74,
+    "slope_deg": 17.3,
+    "river_proximity_m": 600.0,
+    "landslide_zone": true,
+    "historical_incident_count": 8,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_015",
+    "edge_id": "nh6_e_015",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Byrnihat Umtru River Bridge to 18th Mile Industrial Estate",
+    "start_node": "Byrnihat Umtru River Bridge",
+    "end_node": "18th Mile Industrial Estate",
+    "start_lat": 26.038,
+    "start_lon": 91.8635,
+    "end_lat": 26.021,
+    "end_lon": 91.8625,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.8635,
+          26.038
+        ],
+        [
+          91.86379248588456,
+          26.029609389774564
+        ],
+        [
+          91.8625,
+          26.021
+        ]
+      ]
+    },
+    "length_m": 1893.0,
+    "base_travel_time_sec": 151,
+    "slope_deg": 19.8,
+    "river_proximity_m": 120.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_016",
+    "edge_id": "nh6_e_016",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "18th Mile Industrial Estate to 20th Mile Weighbridge",
+    "start_node": "18th Mile Industrial Estate",
+    "end_node": "20th Mile Weighbridge",
+    "start_lat": 26.021,
+    "start_lon": 91.8625,
+    "end_lat": 26.002,
+    "end_lon": 91.862,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.8625,
+          26.021
+        ],
+        [
+          91.86277023027212,
+          26.010892249669713
+        ],
+        [
+          91.862,
+          26.002
+        ]
+      ]
+    },
+    "length_m": 2113.3,
+    "base_travel_time_sec": 169,
+    "slope_deg": 9.8,
+    "river_proximity_m": 200.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_017",
+    "edge_id": "nh6_e_017",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "20th Mile Weighbridge to Saiden Hills Curve",
+    "start_node": "20th Mile Weighbridge",
+    "end_node": "Saiden Hills Curve",
+    "start_lat": 26.002,
+    "start_lon": 91.862,
+    "end_lat": 25.981,
+    "end_lon": 91.866,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.862,
+          26.002
+        ],
+        [
+          91.86376967734667,
+          25.990733872415742
+        ],
+        [
+          91.866,
+          25.981
+        ]
+      ]
+    },
+    "length_m": 2369.1,
+    "base_travel_time_sec": 189,
+    "slope_deg": 12.3,
+    "river_proximity_m": 280.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_018",
+    "edge_id": "nh6_e_018",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Saiden Hills Curve to Shangbangla Rest Stop",
+    "start_node": "Saiden Hills Curve",
+    "end_node": "Shangbangla Rest Stop",
+    "start_lat": 25.981,
+    "start_lon": 91.866,
+    "end_lat": 25.962,
+    "end_lon": 91.871,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.866,
+          25.981
+        ],
+        [
+          91.8677308820065,
+          25.971279869329557
+        ],
+        [
+          91.871,
+          25.962
+        ]
+      ]
+    },
+    "length_m": 2171.0,
+    "base_travel_time_sec": 173,
+    "slope_deg": 14.8,
+    "river_proximity_m": 360.0,
+    "landslide_zone": true,
+    "historical_incident_count": 8,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_019",
+    "edge_id": "nh6_e_019",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Shangbangla Rest Stop to Nongpoh Circuit House",
+    "start_node": "Shangbangla Rest Stop",
+    "end_node": "Nongpoh Circuit House",
+    "start_lat": 25.962,
+    "start_lon": 91.871,
+    "end_lat": 25.912,
+    "end_lon": 91.878,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.871,
+          25.962
+        ],
+        [
+          91.87389921020258,
+          25.937528253366594
+        ],
+        [
+          91.878,
+          25.912
+        ]
+      ]
+    },
+    "length_m": 5603.6,
+    "base_travel_time_sec": 448,
+    "slope_deg": 17.3,
+    "river_proximity_m": 440.0,
+    "landslide_zone": true,
+    "historical_incident_count": 8,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_020",
+    "edge_id": "nh6_e_020",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Nongpoh Circuit House to Nongpoh Main Town",
+    "start_node": "Nongpoh Circuit House",
+    "end_node": "Nongpoh Main Town",
+    "start_lat": 25.912,
+    "start_lon": 91.878,
+    "end_lat": 25.9038,
+    "end_lon": 91.8814,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.878,
+          25.912
+        ],
+        [
+          91.87981990176773,
+          25.908690963694546
+        ],
+        [
+          91.8814,
+          25.9038
+        ]
+      ]
+    },
+    "length_m": 973.2,
+    "base_travel_time_sec": 77,
+    "slope_deg": 19.8,
+    "river_proximity_m": 520.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_021",
+    "edge_id": "nh6_e_021",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Nongpoh Main Town to Nongpoh River Culvert",
+    "start_node": "Nongpoh Main Town",
+    "end_node": "Nongpoh River Culvert",
+    "start_lat": 25.9038,
+    "start_lon": 91.8814,
+    "end_lat": 25.891,
+    "end_lon": 91.882,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.8814,
+          25.9038
+        ],
+        [
+          91.88243035620057,
+          25.89772646564945
+        ],
+        [
+          91.882,
+          25.891
+        ]
+      ]
+    },
+    "length_m": 1424.6,
+    "base_travel_time_sec": 113,
+    "slope_deg": 9.8,
+    "river_proximity_m": 600.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_022",
+    "edge_id": "nh6_e_022",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Nongpoh River Culvert to Mawrong Diversion",
+    "start_node": "Nongpoh River Culvert",
+    "end_node": "Mawrong Diversion",
+    "start_lat": 25.891,
+    "start_lon": 91.882,
+    "end_lat": 25.862,
+    "end_lon": 91.883,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.882,
+          25.891
+        ],
+        [
+          91.88316932451082,
+          25.87606181659182
+        ],
+        [
+          91.883,
+          25.862
+        ]
+      ]
+    },
+    "length_m": 3226.2,
+    "base_travel_time_sec": 258,
+    "slope_deg": 12.3,
+    "river_proximity_m": 120.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_023",
+    "edge_id": "nh6_e_023",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Mawrong Diversion to Pahamsyiem Sports Complex",
+    "start_node": "Mawrong Diversion",
+    "end_node": "Pahamsyiem Sports Complex",
+    "start_lat": 25.862,
+    "start_lon": 91.883,
+    "end_lat": 25.841,
+    "end_lon": 91.884,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.883,
+          25.862
+        ],
+        [
+          91.88349291895257,
+          25.850700031338885
+        ],
+        [
+          91.884,
+          25.841
+        ]
+      ]
+    },
+    "length_m": 2337.2,
+    "base_travel_time_sec": 186,
+    "slope_deg": 14.8,
+    "river_proximity_m": 200.0,
+    "landslide_zone": true,
+    "historical_incident_count": 8,
+    "road_class": "national_highway"
+  },
+  {
+    "id": "seg_nh6_024",
+    "edge_id": "nh6_e_024",
+    "corridor": "NH-6",
+    "road_name": "NH-6",
+    "name": "Pahamsyiem Sports Complex to Umran Diary Farm Turn",
+    "start_node": "Pahamsyiem Sports Complex",
+    "end_node": "Umran Diary Farm Turn",
+    "start_lat": 25.841,
+    "start_lon": 91.884,
+    "end_lat": 25.811,
+    "end_lon": 91.885,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          91.884,
+          25.841
+        ],
+        [
+          91.88382302367667,
+          25.825573733583735
+        ],
+        [
+          91.885,
+          25.811
+        ]
+      ]
+    },
+    "length_m": 3337.3,
+    "base_travel_time_sec": 266,
+    "slope_deg": 17.3,
+    "river_proximity_m": 280.0,
+    "landslide_zone": false,
+    "historical_incident_count": 1,
+    "road_class": "national_highway"
+  }
+]

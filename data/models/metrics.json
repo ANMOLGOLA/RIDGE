@@ -1,0 +1,27 @@
+{
+  "roc_auc": 0.9876,
+  "precision": 0.9591,
+  "recall": 0.9657,
+  "confusion_matrix": [
+    [
+      193,
+      24
+    ],
+    [
+      20,
+      563
+    ]
+  ],
+  "feature_importances": {
+    "landslide_zone": 0.40944957733154297,
+    "rain_past_24h_mm": 0.18477600812911987,
+    "slope_deg": 0.10561754554510117,
+    "live_incidents_nearby": 0.08280064910650253,
+    "rain_forecast_24h_mm": 0.07663924992084503,
+    "historical_incident_count": 0.05387933924794197,
+    "river_proximity_m": 0.04645852744579315,
+    "season_monsoon": 0.04037913307547569
+  },
+  "dataset_size": 4000,
+  "notes": "Model trained on synthetic data for the prototype. Replace with historical incident data for production."
+}

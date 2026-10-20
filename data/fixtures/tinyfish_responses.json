@@ -1,0 +1,130 @@
+{
+  "search": {
+    "NH-10 landslide road blocked Sikkim": [
+      {
+        "title": "Massive landslide halts traffic on NH-10 near 29th Mile",
+        "url": "https://sikkimexpress.com/news/nh10-massive-landslide-at-29th-mile-traffic-halted",
+        "snippet": "Vehicular movement between Siliguri and Gangtok on National Highway 10 has been completely suspended following a massive landslide at 29th Mile early Tuesday morning. Heavy boulders and mud debris have covered a 120-mete..."
+      },
+      {
+        "title": "Subsidence near Kalijhora restricts NH-10 to single-lane movement",
+        "url": "https://eastmojo.com/sikkim/kalijhora-settlement-subsidence-single-lane-advisory",
+        "snippet": "The Kalimpong District Administration has issued a travel advisory restricting traffic to single-lane movement near Kalijhora Dam due to road subsidence caused by rising water levels in the Teesta River. Light motor vehi..."
+      },
+      {
+        "title": "Road cleared at Burdang: Normal traffic resumes on Singtam-Rangpo stretch",
+        "url": "https://sikkimchronicle.com/burdang-restoration-nh10-reopened",
+        "snippet": "Border Roads Organisation (BRO) Project Swastik has successfully cleared debris at Burdang near Singtam following yesterday's mudslide. NH-10 is now restored for regular two-way movement between Rangpo and Singtam. Drive..."
+      },
+      {
+        "title": "Flash mudflow at Seti Jhora prompts safety advisory on NH-10",
+        "url": "https://telegraphindia.com/north-east/seti-jhora-flash-mudflow-alert-nh10",
+        "snippet": "High intensity rainfall in the Kalimpong hills led to an unexpected flash mudflow over Seti Jhora bridge on NH-10. Boulders and slush on the carriageway caused minor vehicle damage. Police have halted heavy commercial ve..."
+      },
+      {
+        "title": "Intermittent shooting stones at Melli Dara: Travelers urged to remain alert",
+        "url": "https://voiceofsikkim.com/melli-dara-rockfall-single-lane",
+        "snippet": "Sikkim Police have issued an urgent travel warning for motorists traveling past Melli Dara Bridge along NH-10. Active shooting stones and loose rocks continue to fall from overhead hill cuttings...."
+      },
+      {
+        "title": "Teesta River crosses danger mark: NH-10 at Teesta Bazar submerged",
+        "url": "https://sikkimexpress.com/teesta-bazar-submerged-nh10-cut-off",
+        "snippet": "Following torrential rainfall in North Sikkim, the Teesta River has breached embankments at Teesta Bazar. Low-lying sections of NH-10 near the suspension bridge are under water. All traffic between Siliguri and Gangtok i..."
+      }
+    ],
+    "Guwahati Shillong NH6 waterlogging": [
+      {
+        "title": "Incessant downpour triggers severe waterlogging at Jorabat on NH-6",
+        "url": "https://morungexpress.com/assam-meghalaya-jorabat-flooded-traffic-crawls",
+        "snippet": "Incessant monsoon rains across the Khasi Hills foothills caused severe waterlogging on the Guwahati-Shillong corridor at Jorabat junction on NH-6. Water levels exceeded two feet along the tri-junction, leaving hundreds o..."
+      },
+      {
+        "title": "Umiam Bridge structural inspection causes slow-moving traffic on NH-6",
+        "url": "https://themeghalayan.com/shillong-umiam-bridge-repair-traffic-diversion",
+        "snippet": "Commuters traveling between Guwahati and Shillong experienced significant delays near Barapani Bridge on NH-6 today as MeECL engineers conducted non-destructive structural vibration testing on the Umiam Dam spillway brid..."
+      },
+      {
+        "title": "Overturned freight trailer cleared on Umsning Expressway Bypass",
+        "url": "https://hubnetwork.in/umsning-bypass-accident-cleared",
+        "snippet": "A container truck that overturned near Umsning Expressway Bypass on NH-6 early morning has been removed using heavy cranes. Traffic flow toward Shillong is now moving normally...."
+      },
+      {
+        "title": "Byrnihat tax gate flooded as Umtru river overflows its banks",
+        "url": "https://sentinelassam.com/byrnihat-flash-flood-road-inundated",
+        "snippet": "Water from the swelling Umtru River has inundated a 300-meter section of NH-6 near Byrnihat Commercial Checkpost. Passenger cabs and two-wheelers are advised not to cross the flooded section until water recedes...."
+      },
+      {
+        "title": "Minor landslip near Mawlai Phudmuri on Shillong entry corridor",
+        "url": "https://shillongtimes.com/mawlai-bypass-landslip-clearing-underway",
+        "snippet": "Heavy morning showers triggered a minor landslip near Mawlai Phudmuri Chowk on NH-6. Mud debris partially blocked the inbound lane towards Shillong city. District authorities cleared the road within 90 minutes...."
+      },
+      {
+        "title": "Culvert subsidence near Nongpoh: Heavy vehicles speed restricted on NH-6",
+        "url": "https://guwahatitimes.com/nongpoh-culvert-subsidence-caution-nh6",
+        "snippet": "NHAI engineers have detected foundation subsidence at a major culvert near Nongpoh Main Town on NH-6. Speed limits of 20 km/h have been posted for heavy transport vehicles while repair work proceeds...."
+      }
+    ]
+  },
+  "fetch": {
+    "https://sikkimexpress.com/news/nh10-massive-landslide-at-29th-mile-traffic-halted": {
+      "url": "https://sikkimexpress.com/news/nh10-massive-landslide-at-29th-mile-traffic-halted",
+      "status": 200,
+      "content": "# Massive landslide halts traffic on NH-10 near 29th Mile\n\n**Published**: 2026-10-20T14:43:44.382282+00:00\n\nVehicular movement between Siliguri and Gangtok on National Highway 10 has been completely suspended following a massive landslide at 29th Mile early Tuesday morning. Heavy boulders and mud debris have covered a 120-meter stretch of the highway near Teesta Bazar. District authorities and PWD machines are on site clearing debris, but continuous rockfall is hampering restoration operations."
+    },
+    "https://eastmojo.com/sikkim/kalijhora-settlement-subsidence-single-lane-advisory": {
+      "url": "https://eastmojo.com/sikkim/kalijhora-settlement-subsidence-single-lane-advisory",
+      "status": 200,
+      "content": "# Subsidence near Kalijhora restricts NH-10 to single-lane movement\n\n**Published**: 2026-10-20T11:43:44.382282+00:00\n\nThe Kalimpong District Administration has issued a travel advisory restricting traffic to single-lane movement near Kalijhora Dam due to road subsidence caused by rising water levels in the Teesta River. Light motor vehicles are permitted with caution, while heavy trucks are being diverted via Coronation Bridge and Gorubathan route."
+    },
+    "https://morungexpress.com/assam-meghalaya-jorabat-flooded-traffic-crawls": {
+      "url": "https://morungexpress.com/assam-meghalaya-jorabat-flooded-traffic-crawls",
+      "status": 200,
+      "content": "# Incessant downpour triggers severe waterlogging at Jorabat on NH-6\n\n**Published**: 2026-10-20T13:43:44.382282+00:00\n\nIncessant monsoon rains across the Khasi Hills foothills caused severe waterlogging on the Guwahati-Shillong corridor at Jorabat junction on NH-6. Water levels exceeded two feet along the tri-junction, leaving hundreds of trucks and passenger vehicles stranded in knee-deep water. Traffic police are advising drivers to exercise extreme caution."
+    },
+    "https://themeghalayan.com/shillong-umiam-bridge-repair-traffic-diversion": {
+      "url": "https://themeghalayan.com/shillong-umiam-bridge-repair-traffic-diversion",
+      "status": 200,
+      "content": "# Umiam Bridge structural inspection causes slow-moving traffic on NH-6\n\n**Published**: 2026-10-20T09:43:44.382282+00:00\n\nCommuters traveling between Guwahati and Shillong experienced significant delays near Barapani Bridge on NH-6 today as MeECL engineers conducted non-destructive structural vibration testing on the Umiam Dam spillway bridge. One-way traffic regulation is in effect until evening."
+    },
+    "https://sikkimchronicle.com/burdang-restoration-nh10-reopened": {
+      "url": "https://sikkimchronicle.com/burdang-restoration-nh10-reopened",
+      "status": 200,
+      "content": "# Road cleared at Burdang: Normal traffic resumes on Singtam-Rangpo stretch\n\n**Published**: 2026-10-20T15:43:44.382282+00:00\n\nBorder Roads Organisation (BRO) Project Swastik has successfully cleared debris at Burdang near Singtam following yesterday's mudslide. NH-10 is now restored for regular two-way movement between Rangpo and Singtam. Drivers are advised to observe speed limits."
+    },
+    "https://hubnetwork.in/umsning-bypass-accident-cleared": {
+      "url": "https://hubnetwork.in/umsning-bypass-accident-cleared",
+      "status": 200,
+      "content": "# Overturned freight trailer cleared on Umsning Expressway Bypass\n\n**Published**: 2026-10-20T12:43:44.382282+00:00\n\nA container truck that overturned near Umsning Expressway Bypass on NH-6 early morning has been removed using heavy cranes. Traffic flow toward Shillong is now moving normally."
+    },
+    "https://telegraphindia.com/north-east/seti-jhora-flash-mudflow-alert-nh10": {
+      "url": "https://telegraphindia.com/north-east/seti-jhora-flash-mudflow-alert-nh10",
+      "status": 200,
+      "content": "# Flash mudflow at Seti Jhora prompts safety advisory on NH-10\n\n**Published**: 2026-10-20T10:43:44.382282+00:00\n\nHigh intensity rainfall in the Kalimpong hills led to an unexpected flash mudflow over Seti Jhora bridge on NH-10. Boulders and slush on the carriageway caused minor vehicle damage. Police have halted heavy commercial vehicles at Sevoke."
+    },
+    "https://sentinelassam.com/byrnihat-flash-flood-road-inundated": {
+      "url": "https://sentinelassam.com/byrnihat-flash-flood-road-inundated",
+      "status": 200,
+      "content": "# Byrnihat tax gate flooded as Umtru river overflows its banks\n\n**Published**: 2026-10-20T08:43:44.382282+00:00\n\nWater from the swelling Umtru River has inundated a 300-meter section of NH-6 near Byrnihat Commercial Checkpost. Passenger cabs and two-wheelers are advised not to cross the flooded section until water recedes."
+    },
+    "https://voiceofsikkim.com/melli-dara-rockfall-single-lane": {
+      "url": "https://voiceofsikkim.com/melli-dara-rockfall-single-lane",
+      "status": 200,
+      "content": "# Intermittent shooting stones at Melli Dara: Travelers urged to remain alert\n\n**Published**: 2026-10-20T06:43:44.382282+00:00\n\nSikkim Police have issued an urgent travel warning for motorists traveling past Melli Dara Bridge along NH-10. Active shooting stones and loose rocks continue to fall from overhead hill cuttings."
+    },
+    "https://shillongtimes.com/mawlai-bypass-landslip-clearing-underway": {
+      "url": "https://shillongtimes.com/mawlai-bypass-landslip-clearing-underway",
+      "status": 200,
+      "content": "# Minor landslip near Mawlai Phudmuri on Shillong entry corridor\n\n**Published**: 2026-10-20T05:43:44.382282+00:00\n\nHeavy morning showers triggered a minor landslip near Mawlai Phudmuri Chowk on NH-6. Mud debris partially blocked the inbound lane towards Shillong city. District authorities cleared the road within 90 minutes."
+    },
+    "https://sikkimexpress.com/teesta-bazar-submerged-nh10-cut-off": {
+      "url": "https://sikkimexpress.com/teesta-bazar-submerged-nh10-cut-off",
+      "status": 200,
+      "content": "# Teesta River crosses danger mark: NH-10 at Teesta Bazar submerged\n\n**Published**: 2026-10-20T02:43:44.382282+00:00\n\nFollowing torrential rainfall in North Sikkim, the Teesta River has breached embankments at Teesta Bazar. Low-lying sections of NH-10 near the suspension bridge are under water. All traffic between Siliguri and Gangtok is diverted via Lava, Algarah and Reshi."
+    },
+    "https://guwahatitimes.com/nongpoh-culvert-subsidence-caution-nh6": {
+      "url": "https://guwahatitimes.com/nongpoh-culvert-subsidence-caution-nh6",
+      "status": 200,
+      "content": "# Culvert subsidence near Nongpoh: Heavy vehicles speed restricted on NH-6\n\n**Published**: 2026-10-19T22:43:44.382282+00:00\n\nNHAI engineers have detected foundation subsidence at a major culvert near Nongpoh Main Town on NH-6. Speed limits of 20 km/h have been posted for heavy transport vehicles while repair work proceeds."
+    }
+  }
+}
