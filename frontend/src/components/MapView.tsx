@@ -134,10 +134,10 @@ export const MapView: React.FC<MapViewProps> = ({
       >
         <ChangeView center={center} zoom={zoom} />
 
-        {/* Dark Modern Basemap */}
+        {/* Modern Esri Dark Canvas Basemap (100% Free & No API Key Required) */}
         <TileLayer
-          attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.esri.com/">Esri</a>, DeLorme, NAVTEQ'
+          url="https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
         />
 
         {/* 1. Road Segments Layer */}
