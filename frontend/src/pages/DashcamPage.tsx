@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Camera, ShieldCheck, Upload, Play, CheckCircle2, Eye, EyeOff, Sparkles, AlertCircle } from 'lucide-react';
-import { DashcamEvent, api } from '../lib/api';
+import { api, type DashcamEvent } from '../lib/api';
 
 export const DashcamPage: React.FC = () => {
   const [events, setEvents] = useState<DashcamEvent[]>([]);

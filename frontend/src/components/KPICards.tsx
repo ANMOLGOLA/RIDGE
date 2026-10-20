@@ -1,6 +1,6 @@
 import React from 'react';
-import { AlertTriangle, CheckCircle, Ban, Navigation, Sparkles } from 'lucide-react';
-import { MetricsSummary } from '../lib/api';
+import { AlertTriangle, CheckCircle, Ban, Navigation } from 'lucide-react';
+import type { MetricsSummary } from '../lib/api';
 
 interface KPICardsProps {
   metrics: MetricsSummary | null;

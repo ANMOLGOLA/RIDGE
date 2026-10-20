@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Truck, Navigation, AlertTriangle, ShieldCheck, Clock, MapPin, Smartphone } from 'lucide-react';
-import { VehicleItem, AlertItem, api } from '../lib/api';
+import { api, type VehicleItem, type AlertItem } from '../lib/api';
 
 interface FleetAlertsPageProps {
   corridor: string;

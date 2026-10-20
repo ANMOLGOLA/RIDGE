@@ -9,7 +9,7 @@ import {
   FileText,
   UserCheck
 } from 'lucide-react';
-import { Incident, api } from '../lib/api';
+import { api, type Incident } from '../lib/api';
 
 interface VerificationQueuePageProps {
   corridor: string;

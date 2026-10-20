@@ -3,7 +3,7 @@ import { KPICards } from '../components/KPICards';
 import { MapView } from '../components/MapView';
 import { RoutePlanner } from '../components/RoutePlanner';
 import { AlertsFeed } from '../components/AlertsFeed';
-import { 
+import type { 
   GeoJSONFeatureCollection, 
   Incident, 
   AlertItem, 

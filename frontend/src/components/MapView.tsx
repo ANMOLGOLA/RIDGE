@@ -12,7 +12,7 @@ import {
   Navigation,
   Info
 } from 'lucide-react';
-import { GeoJSONFeatureCollection, Incident, RouteOption } from '../lib/api';
+import type { GeoJSONFeatureCollection, Incident, RouteOption } from '../lib/api';
 
 // Center changer helper
 function ChangeView({ center, zoom }: { center: [number, number]; zoom: number }) {

@@ -12,7 +12,7 @@ import {
   Sparkles,
   Link as LinkIcon
 } from 'lucide-react';
-import { IngestionRun, api } from '../lib/api';
+import { api, type IngestionRun } from '../lib/api';
 
 interface TinyFishPipelinePageProps {
   corridor: string;

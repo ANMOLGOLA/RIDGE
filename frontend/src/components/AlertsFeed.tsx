@@ -1,6 +1,6 @@
 import React from 'react';
 import { AlertCircle, Bell, ArrowRight, ShieldAlert, CheckCircle2 } from 'lucide-react';
-import { AlertItem } from '../lib/api';
+import type { AlertItem } from '../lib/api';
 
 interface AlertsFeedProps {
   alerts: AlertItem[];

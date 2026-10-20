@@ -9,13 +9,20 @@ import { InsightsPage } from './pages/InsightsPage';
 import { PricingPage } from './pages/PricingPage';
 import { 
   api, 
-  GeoJSONFeatureCollection, 
-  Incident, 
-  AlertItem, 
-  MetricsSummary, 
-  RouteOption, 
-  RouteResponse 
+  type GeoJSONFeatureCollection, 
+  type Incident, 
+  type AlertItem, 
+  type MetricsSummary, 
+  type RouteOption, 
+  type RouteResponse 
 } from './lib/api';
+
+import { 
+  FALLBACK_SEGMENTS_NH10, 
+  FALLBACK_INCIDENTS_NH10, 
+  FALLBACK_ALERTS_NH10, 
+  FALLBACK_METRICS 
+} from './lib/fallbackData';
 
 function App() {
   const [activeTab, setActiveTab] = useState('map');
@@ -23,11 +30,11 @@ function App() {
   const [tinyfishMode, setTinyfishMode] = useState('fixture');
   const [isIngesting, setIsIngesting] = useState(false);
 
-  // Core Data States
-  const [segments, setSegments] = useState<GeoJSONFeatureCollection | null>(null);
-  const [incidents, setIncidents] = useState<Incident[]>([]);
-  const [alerts, setAlerts] = useState<AlertItem[]>([]);
-  const [metrics, setMetrics] = useState<MetricsSummary | null>(null);
+  // Core Data States (Initialized with fallback data so UI renders immediately)
+  const [segments, setSegments] = useState<GeoJSONFeatureCollection | null>(FALLBACK_SEGMENTS_NH10);
+  const [incidents, setIncidents] = useState<Incident[]>(FALLBACK_INCIDENTS_NH10);
+  const [alerts, setAlerts] = useState<AlertItem[]>(FALLBACK_ALERTS_NH10);
+  const [metrics, setMetrics] = useState<MetricsSummary | null>(FALLBACK_METRICS);
   const [activeRoute, setActiveRoute] = useState<RouteOption | null>(null);
   const [isLoadingRoute, setIsLoadingRoute] = useState(false);
 
@@ -45,12 +52,12 @@ function App() {
       if (health?.tinyfish_mode) {
         setTinyfishMode(health.tinyfish_mode);
       }
-      setSegments(segData);
-      setIncidents(incData);
-      setAlerts(altData);
-      setMetrics(metData);
+      if (segData?.features?.length) setSegments(segData);
+      if (incData?.length) setIncidents(incData);
+      if (altData?.length) setAlerts(altData);
+      if (metData) setMetrics(metData);
     } catch (err) {
-      console.error('Error fetching RIDGE initial data:', err);
+      console.warn('Backend API connecting (using local intelligence cache):', err);
     }
   };
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Navigation, ShieldCheck, Zap, Scale, AlertCircle, Clock, MapPin, Check } from 'lucide-react';
-import { RouteResponse, RouteOption } from '../lib/api';
+import type { RouteResponse, RouteOption } from '../lib/api';
 
 interface RoutePlannerProps {
   corridor: string;

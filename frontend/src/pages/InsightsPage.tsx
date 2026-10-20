@@ -13,7 +13,7 @@ import {
   Line 
 } from 'recharts';
 import { BarChart3, TrendingUp, AlertTriangle, ShieldCheck, Cpu } from 'lucide-react';
-import { MetricsSummary, api } from '../lib/api';
+import { api, type MetricsSummary } from '../lib/api';
 
 export const InsightsPage: React.FC = () => {
   const [metrics, setMetrics] = useState<MetricsSummary | null>(null);
